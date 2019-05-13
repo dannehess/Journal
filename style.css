@@ -1,0 +1,169 @@
+
+html, body{
+    background-color: ghostwhite;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: #1a1a1d;
+    font-size: 1.2em;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    line-height: 35px;
+}
+
+.container{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    flex: 1 1 100%;
+    width: 100%;
+}
+
+.left{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    background-color: rgb(171, 186, 193);
+    border-right: 1px solid rgb(143, 158, 167);
+    width: 30%;
+    margin: 0;
+    padding-top: 60px;
+}
+
+main{
+    background-color: ghostwhite;
+    width: 70%;
+    padding: 100px;
+    padding-top: 60px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    background-color: purple;
+}
+
+nav a{
+    padding: 18px 70px;
+    margin-bottom: 6px;
+    display: block;
+    background-color: #1a1a1d;
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: ghostwhite;
+    color: #1a1a1d;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+input[type=submit], #newPostBtn{
+    padding: 10px 30px;
+    background-color: #1a1a1d;
+    color: ghostwhite;
+    font-size: 1.2em;
+    outline: none;
+    border: 0;
+    margin-top: 10px;
+}
+
+input[type="submit"]{
+    float: right;
+}
+
+input[type="text"], input[type="password"], textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(143, 158, 167);
+}
+
+textarea{
+    height: 200px;
+}
+
+#userName{
+    display: flex;
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+#registerDiv, #loginDiv{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.formDiv{
+    padding: 50px;
+    background-color: rgb(171, 186, 193);
+    border: 1px solid rgb(143, 158, 167);
+    box-shadow: 0px 0px 30px rgba(92, 92, 92, 0.19);
+    width: 400px;
+}
+
+label{
+    font-size: 1.2em;
+}
+
+#alreadyMember{
+    font-size: 1em;
+    float: right;
+    line-height: 20px;
+}
+
+.thePost{
+    padding: 30px;
+    padding-bottom: 60px;
+    background-color: rgb(171, 186, 193);
+    border: 1px solid rgb(143, 158, 167);
+    box-shadow: 0px 0px 30px rgba(92, 92, 92, 0.19);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.date{
+    float: right;
+    font-weight: bold;
+}
+
+.spacer{
+    height: 100px;
+}
+
+#welcome{
+    font-size: 3em;
+    text-decoration: underline;
+}
